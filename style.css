@@ -118,3 +118,43 @@ footer {
   background-color: #121c3d;
   margin-top: 40px;
 }
+
+.social-links {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.social {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.social i {
+  margin-right: 8px;
+  font-size: 1.2em;
+}
+
+.social.telegram {
+  background-color: #0088cc;
+}
+
+.social.telegram:hover {
+  background-color: #006699;
+}
+
+.social.discord {
+  background-color: #5865F2;
+}
+
+.social.discord:hover {
+  background-color: #4752C4;
+}
+
