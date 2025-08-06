@@ -1,52 +1,97 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to bottom right, #1e1e2f, #2a2a40);
+  background: linear-gradient(to bottom right, #0b0f2c, #1c2541);
   color: #fff;
+}
+
+nav {
+  background-color: #121c3d;
+  padding: 16px 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.navbar a {
+  margin-left: 20px;
+  color: #aaccff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #ffffff;
 }
 
 header {
   text-align: center;
-  padding: 50px 20px 20px;
+  padding: 60px 20px 30px;
+  background-color: #1c2541;
 }
 
 header h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 10px;
+  color: #ffffff;
 }
 
 header p {
-  font-size: 1.2rem;
-  color: #bbb;
+  font-size: 1.1rem;
+  color: #9bb3e1;
 }
 
 .mods-container {
   max-width: 1200px;
   margin: 40px auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
   padding: 0 20px;
 }
 
+label, select {
+  display: block;
+  margin: 0 auto 20px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  background-color: #0e1a3c;
+  color: #fff;
+  border: 1px solid #445f88;
+}
+
 .mod-card {
-  background-color: #333;
+  background-color: #16203c;
   padding: 20px;
   border-radius: 16px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  margin-bottom: 20px;
   transition: transform 0.3s;
 }
 
 .mod-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .mod-card h2 {
   margin-top: 0;
+  color: #aad4ff;
 }
 
 .mod-card p {
-  color: #ccc;
+  color: #c7d6f2;
   font-size: 0.95rem;
 }
 
@@ -54,7 +99,7 @@ header p {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 16px;
-  background-color: #4f46e5;
+  background-color: #2f5fd4;
   color: white;
   text-decoration: none;
   border-radius: 8px;
@@ -62,12 +107,14 @@ header p {
 }
 
 .mod-card a:hover {
-  background-color: #3730a3;
+  background-color: #1e40af;
 }
 
 footer {
   text-align: center;
   padding: 40px 20px 20px;
   font-size: 0.8rem;
-  color: #888;
+  color: #7e9ccf;
+  background-color: #121c3d;
+  margin-top: 40px;
 }
