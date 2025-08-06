@@ -1,73 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>VPB Modding</title>
-  <link rel="stylesheet" href="style.css" />
-  <script>
-    function filterMods() {
-      const selectedVersion = document.getElementById("versionFilter").value;
-      const cards = document.querySelectorAll(".mod-card");
-      cards.forEach(card => {
-        const versions = card.getAttribute("data-versions").split(",");
-        if (selectedVersion === "all" || versions.includes(selectedVersion)) {
-          card.style.display = "block";
-        } else {
-          card.style.display = "none";
-        }
-      });
-    }
-  </script>
+  <meta http-equiv="refresh" content="0; URL=info.html" />
 </head>
 <body>
-  <nav>
-    <div class="navbar">
-      <span class="logo">VPB Modding</span>
-      <a href="mods.html">Моды</a>
-      <a href="index.html">Информация</a>
-    </div>
-  </nav>
-
-  <header>
-    <h1>Добро пожаловать в VPB Modding</h1>
-    <p>Здесь вы найдёте лучшие моды для Minecraft версий 1.12.2 – 1.21</p>
-  </header>
-
-  <main class="mods-container">
-    <label for="versionFilter">Фильтр по версии:</label>
-    <select id="versionFilter" onchange="filterMods()">
-      <option value="all">Все версии</option>
-      <option value="1.12.2">1.12.2</option>
-      <option value="1.16">1.16</option>
-      <option value="1.17">1.17</option>
-      <option value="1.18">1.18</option>
-      <option value="1.19">1.19</option>
-      <option value="1.20">1.20</option>
-      <option value="1.21">1.21</option>
-    </select>
-
-    <div class="mod-card" data-versions="1.16,1.20">
-      <h2>Super Car Mod</h2>
-      <p>Добавляет футуристическую супер-тачку.</p>
-      <a href="#">Скачать</a>
-    </div>
-
-    <div class="mod-card" data-versions="1.18,1.19">
-      <h2>Weather FX</h2>
-      <p>Улучшает погодные эффекты.</p>
-      <a href="#">Скачать</a>
-    </div>
-
-    <div class="mod-card" data-versions="1.12.2,1.16,1.17">
-      <h2>Realistic Physics</h2>
-      <p>Улучшенная физика транспорта.</p>
-      <a href="#">Скачать</a>
-    </div>
-  </main>
-
-  <footer>
-    &copy; 2025 VPB Modding. Все права защищены.
-  </footer>
+  <p>Перенаправление...</p>
 </body>
 </html>
