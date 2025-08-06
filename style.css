@@ -119,27 +119,41 @@ footer {
   margin-top: 40px;
 }
 
+.mod-card {
+  background-color: #16203c;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .social-links {
   display: flex;
-  gap: 16px;
-  margin-top: 10px;
+  gap: 12px;
   flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content: center;
 }
 
 .social {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  padding: 10px 16px;
-  border-radius: 8px;
-  font-weight: bold;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  font-weight: 500;
   text-decoration: none;
   color: white;
   transition: background-color 0.3s;
 }
 
 .social i {
-  margin-right: 8px;
-  font-size: 1.2em;
+  margin-right: 6px;
+  font-size: 1rem;
 }
 
 .social.telegram {
@@ -157,4 +171,5 @@ footer {
 .social.discord:hover {
   background-color: #4752C4;
 }
+
 
